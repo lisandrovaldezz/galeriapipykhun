@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/khun",
+        "destination": "/khun.html"
+      },
+      {
+        "source": "/pip",
+        "destination": "/pip.html"
+      }
+    ]
+  }
