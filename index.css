@@ -107,7 +107,7 @@ section img {
 @media (max-width: 1000px) {
     header h1{
         margin-top:7px;
-        text-indent:0;
+        text-indent:-123px;
         font-size:25px;
     }
     header button {
@@ -133,7 +133,7 @@ section img {
     header h1{
         margin-top:7px;
         font-size:27px;
-        text-indent:0;
+        text-indent:-50px;
     }
     header button {
         margin-left:10px;
@@ -149,7 +149,7 @@ section img {
             margin-top:0px;
             font-size:27px;
             color:black;
-            text-indent:-103px;
+            text-indent:-50px;
         }
     }
 }
