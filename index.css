@@ -108,7 +108,7 @@ section img {
     header h1{
         margin-top:7px;
         text-indent:-123px;
-        font-size:25px;
+        font-size:27px;
     }
     header button {
         margin-left:20px;
@@ -122,7 +122,7 @@ section img {
     @keyframes font-header {
         to {
             margin-top:0px;
-            font-size:27px;
+            font-size:25px;
             color:black;
             text-indent:-123px;
         }
@@ -132,10 +132,70 @@ section img {
 @media (max-width: 700px) {
     header h1{
         margin-top:7px;
-        font-size:27px;
+        font-size:25px;
         text-indent:-50px;
     }
     header button {
+        margin-left:18px;
+        gap: 15px;
+    }
+    section {
+        columns: 2;
+        padding:15px 20px;
+        column-gap:15px;
+    }
+    @keyframes font-header {
+        to {
+            margin-top:4px;
+            font-size:22px;
+            color:black;
+            text-indent:-50px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    header h1{
+        margin-top:2px;
+        font-size:22px;
+        text-indent:-30px;
+    }
+    header button {
+        margin-left:18px;
+        gap: 15px;
+    }
+    section {
+        columns: 2;
+        padding:15px 20px;
+        column-gap:15px;
+    }
+    @keyframes font-header {
+        to {
+            margin-top:2px;
+            font-size:20px;
+            color:black;
+            text-indent:-50px;
+        }
+    }
+    header img {
+        height:35px;
+        width:35px;
+}
+@keyframes img-header {
+    to {
+        height:30px;
+        width:30px;
+}
+}
+
+@media (max-width: 400px) {
+    header h1{
+        margin-top:5px;
+        font-size:19px;
+        text-indent:-6px;
+    }
+    header button {
+        margin-top:4px;
         margin-left:10px;
         gap: 15px;
     }
@@ -146,12 +206,58 @@ section img {
     }
     @keyframes font-header {
         to {
-            margin-top:0px;
-            font-size:27px;
+            margin-top:1.5px;
+            font-size:17px;
             color:black;
-            text-indent:-50px;
+            text-indent:-6px;
         }
     }
+    header img {
+            height:30px;
+            width:30px;
+    }
+    @keyframes img-header {
+        to {
+            height:25px;
+            width:25px;
+    }
+}
+}
+
+@media (max-width: 300px) {
+    header h1{
+        margin-top:5px;
+        font-size:17px;
+        text-indent:-4px;
+    }
+    header button {
+        margin-top:4px;
+        margin-left:10px;
+        gap: 15px;
+    }
+    section {
+        columns: 2;
+        padding:15px 20px;
+        column-gap:15px;
+    }
+    @keyframes font-header {
+        to {
+            margin-top:4px;
+            font-size:15px;
+            color:black;
+            text-indent:-4px;
+        }
+    }
+    header img {
+            height:30px;
+            width:30px;
+    }
+    @keyframes img-header {
+        to {
+            height:25px;
+            width:25px;
+    }
+}
 }
 
 
@@ -181,4 +287,5 @@ footer {
 
 footer p {
     font-size:25px
+}
 }
