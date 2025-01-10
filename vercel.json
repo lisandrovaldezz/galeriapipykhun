@@ -1,16 +1,19 @@
 {
-    "rewrites": [
+    "redirects": [
       {
         "source": "/",
-        "destination": "/index.html"
+        "destination": "/index.html",
+        "permanent": true
       },
       {
         "source": "/khun",
-        "destination": "/khun.html"
+        "destination": "/khun.html",
+        "permanent": true
       },
       {
         "source": "/pip",
-        "destination": "/pip.html"
+        "destination": "/pip.html",
+        "permanent": true
       }
     ]
-  }
+}
